@@ -13,6 +13,7 @@ STYLE_CHOICES = sorted((item, item) for item in get_all_styles())
 class Restroom(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=100)
+    address = models.CharField(max_length=100)
     lat = models.FloatField()
     lon = models.FloatField()
 
