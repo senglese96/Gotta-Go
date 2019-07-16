@@ -1,0 +1,1 @@
+json.extract! restroom, :name, :lon, :lat, :description, :address, :id
