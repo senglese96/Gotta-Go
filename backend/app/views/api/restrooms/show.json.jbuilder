@@ -1,0 +1,1 @@
+json.partial! 'api/restrooms/restroom', restroom: @restroom
